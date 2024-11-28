@@ -10,9 +10,18 @@ This repository demonstrates the implementation of Role-Based Access Control (RB
 
 # Endpoints 
 ## Authentication Endpoints
-- {{authurl}}/register/    POST
-- {{authurl}}/login/       POST
-- {{authurl}}/logout/      POST 
+
+- Registration
+  
+   POST {{authurl}}/register/    
+- Login
+
+   POST {{authurl}}/login/
+- Logout
+
+   POST {{authurl}}/logout/
+
+     
 ## Management Endpoint
 
 -  List all news articles	view_news
