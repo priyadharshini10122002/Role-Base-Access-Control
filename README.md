@@ -13,32 +13,32 @@ This repository demonstrates the implementation of Role-Based Access Control (RB
 
 - Registration
   
-   POST {{authurl}}/register/    
+   POST - {{authurl}}/register/    
 - Login
 
-   POST {{authurl}}/login/
+   POST - {{authurl}}/login/
 - Logout
 
-   POST {{authurl}}/logout/
+   POST - {{authurl}}/logout/
 
      
 ## Management Endpoint
 
 -  List all news articles	view_news
 
-  GET	{{mgnturl}}/news/	
+  GET	- {{mgnturl}}/news/	
   
 - Create a new article	add_news
 
-  POST	{{mgnturl}}/news/
+  POST - {{mgnturl}}/news/
     
 - Update an existing article	change_news
 
-  PATCH	{{mgnturl}}/news/<id>/
+  PATCH	- {{mgnturl}}/news/<id>/
     
 - Delete an article	delete_news
 
-  DELETE	{{mgnturl}}/news/<id>/
+  DELETE - {{mgnturl}}/news/<id>/
   
 
 # Technologies Used
