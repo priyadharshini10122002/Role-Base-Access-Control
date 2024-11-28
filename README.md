@@ -24,19 +24,19 @@ This repository demonstrates the implementation of Role-Based Access Control (RB
      
 ## Management Endpoint
 
--  List all news articles	view_news
+-  List all news 
 
   GET	- {{mgnturl}}/news/	
   
-- Create a new article	add_news
+- Create a new article	
 
   POST - {{mgnturl}}/news/
     
-- Update an existing article	change_news
+- Update an existing article	
 
   PATCH	- {{mgnturl}}/news/<id>/
     
-- Delete an article	delete_news
+- Delete an article	
 
   DELETE - {{mgnturl}}/news/<id>/
   
