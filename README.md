@@ -15,3 +15,5 @@ This repository demonstrates the implementation of Role-Based Access Control (RB
 - PostgreSQL 17
 - Git for version control
   
+# PostMan Collection 
+  https://api.postman.com/collections/35061861-85dd2d53-bd03-44f6-bbb6-6b09d8477a28?access_key=PMAT-01JDS6428VWMJ1C2PA1KMH1GGE
