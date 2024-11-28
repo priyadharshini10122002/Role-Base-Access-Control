@@ -14,9 +14,14 @@ This repository demonstrates the implementation of Role-Based Access Control (RB
 - {{authurl}}/login/       POST
 - {{authurl}}/logout/      POST 
 ## Management Endpoint
--{{mgnturl}}/news          GET, POST
--{{mgnturl}}/news/id/      PATCH, DELETE
-
+-  GET	{{mgnturl}}/news/	
+  -  List all news articles	view_news
+- POST	{{mgnturl}}/news/
+  -  Create a new article	add_news
+- PATCH	{{mgnturl}}/news/<id>/
+  -  Update an existing article	change_news
+- DELETE	{{mgnturl}}/news/<id>/
+  -  Delete an article	delete_news
 
 # Technologies Used
 - Python 3.x
