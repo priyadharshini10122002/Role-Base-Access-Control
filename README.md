@@ -7,3 +7,11 @@ This repository demonstrates the implementation of Role-Based Access Control (RB
 - CRUD Operations: Users can perform actions on resources (e.g., News) based on their assigned role.
 - Groups and Permissions: Automatically assigns permissions to groups via management commands.
 - REST API Integration: Includes endpoints for managing News models and user roles.
+
+# Technologies Used
+- Python 3.x
+- Django 4.x
+- Django REST Framework (DRF)
+- PostgreSQL 17
+- Git for version control
+  
