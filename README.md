@@ -8,6 +8,16 @@ This repository demonstrates the implementation of Role-Based Access Control (RB
 - Groups and Permissions: Automatically assigns permissions to groups via management commands.
 - REST API Integration: Includes endpoints for managing News models and user roles.
 
+# Endpoints 
+## Authentication Endpoints
+- {{authurl}}/register/    POST
+- {{authurl}}/login/       POST
+- {{authurl}}/logout/      POST 
+## Management Endpoint
+-{{mgnturl}}/news          GET, POST
+-{{mgnturl}}/news/id/      PATCH, DELETE
+
+
 # Technologies Used
 - Python 3.x
 - Django 4.x
