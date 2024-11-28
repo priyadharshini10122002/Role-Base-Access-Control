@@ -14,6 +14,7 @@ This repository demonstrates the implementation of Role-Based Access Control (RB
 - {{authurl}}/login/       POST
 - {{authurl}}/logout/      POST 
 ## Management Endpoint
+
 -  List all news articles	view_news
 
   GET	{{mgnturl}}/news/	
